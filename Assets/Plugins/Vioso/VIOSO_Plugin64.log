@@ -1,0 +1,1552 @@
+
+
+VIOSO Unity Plugin 1.1.0 loaded
+VIOSO Unity Plugin PluginLoad
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+18:08:38 Warper create issued "LeftCam" as #1
+18:08:38 
+Ini path:
+18:08:38  D3D11 - Device found.
+
+18:08:38 --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION ---
+
+18:08:38 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+18:08:38 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+18:08:38 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+18:08:38 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+18:08:38 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+18:08:38 File found and openend.
+
+18:08:38 File contains 6 chunks.
+
+18:08:38 Load warp map 0...
+
+18:08:38 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+18:08:38 Load bitmap for dataset 1...
+
+18:08:38 Load bitmap for dataset 1...
+
+18:08:38 Load warp map 1...
+
+18:08:38 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+18:08:38 Load bitmap for dataset 2...
+
+18:08:38 Blend image set.
+
+18:08:38 Load bitmap for dataset 2...
+
+18:08:38 Black image set.
+
+18:08:38 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+18:08:38 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_0"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+18:08:38 2D data found in mapping. Using FIXED EYE settings.
+
+18:08:38 left-handedness detected.
+
+18:08:38 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[2113, 585]
+optimalRect=[829, 0, 2113, 585]
+
+18:08:38 INFO: Output buffer found. Viewport is 1304x596.
+
+18:08:38 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+18:08:38 SUCCESS: DX11-Warper initialized.
+
+18:08:38 Successfully created warper #0
+
+18:08:38 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+18:08:38 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+18:08:38 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+18:08:38 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+18:08:38 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+18:08:38 File found and openend.
+
+18:08:38 File contains 6 chunks.
+
+18:08:38 Load warp map 0...
+
+18:08:38 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+18:08:38 Load bitmap for dataset 1...
+
+18:08:38 Blend image set.
+
+18:08:38 Load bitmap for dataset 1...
+
+18:08:38 Black image set.
+
+18:08:38 Load warp map 1...
+
+18:08:38 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+18:08:38 Load bitmap for dataset 2...
+
+18:08:38 Load bitmap for dataset 2...
+
+18:08:38 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+18:08:38 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+18:08:38 2D data found in mapping. Using FIXED EYE settings.
+
+18:08:38 left-handedness detected.
+
+18:08:38 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[2131, 640]
+optimalRect=[0, 0, 1215, 640]
+
+18:08:38 INFO: Output buffer found. Viewport is 1304x596.
+
+18:08:38 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+18:08:39 SUCCESS: DX11-Warper initialized.
+
+18:08:39 Successfully created warper #1
+
+18:08:51 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+18:08:51 Input texture resource attached.
+18:08:53 Input texture resource attached.
+18:09:00 INFO: DX11-Warper destroyed.
+
+18:09:00 Warper destroyed.
+18:09:00 INFO: DX11-Warper destroyed.
+
+18:09:00 Warper destroyed.
+18:09:00 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+18:50:15 Warper create issued "RightCam" as #1
+18:50:15 
+Ini path:
+18:50:15  D3D11 - Device found.
+
+18:50:15 --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION ---
+
+18:50:15 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+18:50:15 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+18:50:15 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+18:50:15 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+18:50:15 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+18:50:15 File found and openend.
+
+18:50:15 File contains 6 chunks.
+
+18:50:15 Load warp map 0...
+
+18:50:15 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+18:50:15 Load bitmap for dataset 1...
+
+18:50:15 Blend image set.
+
+18:50:15 Load bitmap for dataset 1...
+
+18:50:15 Black image set.
+
+18:50:15 Load warp map 1...
+
+18:50:15 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+18:50:15 Load bitmap for dataset 2...
+
+18:50:15 Load bitmap for dataset 2...
+
+18:50:15 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+18:50:15 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+18:50:15 2D data found in mapping. Using FIXED EYE settings.
+
+18:50:15 left-handedness detected.
+
+18:50:15 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[2131, 640]
+optimalRect=[0, 0, 1215, 640]
+
+18:50:15 INFO: Output buffer found. Viewport is 1304x596.
+
+18:50:15 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+18:50:15 SUCCESS: DX11-Warper initialized.
+
+18:50:15 Successfully created warper #0
+
+18:50:15 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+18:50:15 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+18:50:15 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+18:50:15 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+18:50:15 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+18:50:15 File found and openend.
+
+18:50:15 File contains 6 chunks.
+
+18:50:15 Load warp map 0...
+
+18:50:16 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+18:50:16 Load bitmap for dataset 1...
+
+18:50:16 Load bitmap for dataset 1...
+
+18:50:16 Load warp map 1...
+
+18:50:16 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+18:50:16 Load bitmap for dataset 2...
+
+18:50:16 Blend image set.
+
+18:50:16 Load bitmap for dataset 2...
+
+18:50:16 Black image set.
+
+18:50:16 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+18:50:16 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_0"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+18:50:16 2D data found in mapping. Using FIXED EYE settings.
+
+18:50:16 left-handedness detected.
+
+18:50:16 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[2113, 585]
+optimalRect=[829, 0, 2113, 585]
+
+18:50:16 INFO: Output buffer found. Viewport is 1304x596.
+
+18:50:16 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+18:50:16 SUCCESS: DX11-Warper initialized.
+
+18:50:16 Successfully created warper #1
+
+18:50:21 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+18:50:21 Input texture resource attached.
+18:50:27 Input texture resource attached.
+18:50:37 INFO: DX11-Warper destroyed.
+
+18:50:37 Warper destroyed.
+18:50:37 INFO: DX11-Warper destroyed.
+
+18:50:37 Warper destroyed.
+18:50:37 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+19:43:41 Warper create issued "RightCam" as #1
+19:43:41 
+Ini path:
+19:43:41  D3D11 - Device found.
+
+19:43:41 --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION ---
+
+19:43:41 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:43:41 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:43:41 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:43:41 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:43:41 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:43:41 File found and openend.
+
+19:43:41 File contains 6 chunks.
+
+19:43:41 Load warp map 0...
+
+19:43:41 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+19:43:41 Load bitmap for dataset 1...
+
+19:43:41 Blend image set.
+
+19:43:41 Load bitmap for dataset 1...
+
+19:43:41 Black image set.
+
+19:43:41 Load warp map 1...
+
+19:43:41 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+19:43:41 Load bitmap for dataset 2...
+
+19:43:41 Load bitmap for dataset 2...
+
+19:43:41 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:43:41 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+19:43:41 2D data found in mapping. Using FIXED EYE settings.
+
+19:43:41 left-handedness detected.
+
+19:43:41 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[2131, 640]
+optimalRect=[0, 0, 1215, 640]
+
+19:43:41 INFO: Output buffer found. Viewport is 1304x596.
+
+19:43:41 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:43:41 SUCCESS: DX11-Warper initialized.
+
+19:43:41 Successfully created warper #0
+
+19:43:41 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:43:41 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:43:41 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:43:41 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:43:41 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:43:41 File found and openend.
+
+19:43:41 File contains 6 chunks.
+
+19:43:41 Load warp map 0...
+
+19:43:41 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+19:43:41 Load bitmap for dataset 1...
+
+19:43:41 Load bitmap for dataset 1...
+
+19:43:41 Load warp map 1...
+
+19:43:41 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+19:43:41 Load bitmap for dataset 2...
+
+19:43:41 Blend image set.
+
+19:43:41 Load bitmap for dataset 2...
+
+19:43:41 Black image set.
+
+19:43:41 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:43:41 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_0"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+19:43:41 2D data found in mapping. Using FIXED EYE settings.
+
+19:43:41 left-handedness detected.
+
+19:43:41 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[2113, 585]
+optimalRect=[829, 0, 2113, 585]
+
+19:43:41 INFO: Output buffer found. Viewport is 1304x596.
+
+19:43:41 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:43:41 SUCCESS: DX11-Warper initialized.
+
+19:43:41 Successfully created warper #1
+
+19:43:41 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:43:41 Input texture resource attached.
+19:43:54 Input texture resource attached.
+19:44:30 INFO: DX11-Warper destroyed.
+
+19:44:30 Warper destroyed.
+19:44:30 INFO: DX11-Warper destroyed.
+
+19:44:30 Warper destroyed.
+19:44:30 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+19:45:21 Warper create issued "RightCam" as #1
+19:45:21 
+Ini path:
+19:45:21  D3D11 - Device found.
+
+19:45:21 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:45:21 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:45:21 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:45:21 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:45:21 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:45:21 File found and openend.
+
+19:45:21 File contains 6 chunks.
+
+19:45:21 Load warp map 0...
+
+19:45:21 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+19:45:21 Load bitmap for dataset 1...
+
+19:45:21 Blend image set.
+
+19:45:21 Load bitmap for dataset 1...
+
+19:45:21 Black image set.
+
+19:45:21 Load warp map 1...
+
+19:45:21 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+19:45:21 Load bitmap for dataset 2...
+
+19:45:21 Load bitmap for dataset 2...
+
+19:45:21 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:45:21 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+19:45:21 2D data found in mapping. Using FIXED EYE settings.
+
+19:45:21 left-handedness detected.
+
+19:45:21 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[2131, 640]
+optimalRect=[0, 0, 1215, 640]
+
+19:45:21 INFO: Output buffer found. Viewport is 1304x596.
+
+19:45:21 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:45:21 SUCCESS: DX11-Warper initialized.
+
+19:45:21 Successfully created warper #0
+
+19:45:21 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:45:21 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:45:21 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:45:21 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:45:21 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:45:21 File found and openend.
+
+19:45:21 File contains 6 chunks.
+
+19:45:21 Load warp map 0...
+
+19:45:21 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+19:45:21 Load bitmap for dataset 1...
+
+19:45:21 Load bitmap for dataset 1...
+
+19:45:21 Load warp map 1...
+
+19:45:21 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+19:45:21 Load bitmap for dataset 2...
+
+19:45:21 Blend image set.
+
+19:45:21 Load bitmap for dataset 2...
+
+19:45:21 Black image set.
+
+19:45:21 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:45:21 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_0"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+19:45:21 2D data found in mapping. Using FIXED EYE settings.
+
+19:45:21 left-handedness detected.
+
+19:45:21 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[2113, 585]
+optimalRect=[829, 0, 2113, 585]
+
+19:45:21 INFO: Output buffer found. Viewport is 1304x596.
+
+19:45:21 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:45:21 SUCCESS: DX11-Warper initialized.
+
+19:45:21 Successfully created warper #1
+
+19:45:26 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:45:26 Input texture resource attached.
+19:45:28 Input texture resource attached.
+19:45:36 INFO: DX11-Warper destroyed.
+
+19:45:36 Warper destroyed.
+19:45:36 INFO: DX11-Warper destroyed.
+
+19:45:36 Warper destroyed.
+19:45:36 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+19:45:57 Warper create issued "RightCam" as #1
+19:45:57 
+Ini path:
+19:45:57  D3D11 - Device found.
+
+19:45:57 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:45:57 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:45:57 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:45:57 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:45:57 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:45:57 File found and openend.
+
+19:45:57 File contains 6 chunks.
+
+19:45:57 Load warp map 0...
+
+19:45:57 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+19:45:57 Load bitmap for dataset 1...
+
+19:45:57 Blend image set.
+
+19:45:57 Load bitmap for dataset 1...
+
+19:45:57 Black image set.
+
+19:45:57 Load warp map 1...
+
+19:45:57 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+19:45:57 Load bitmap for dataset 2...
+
+19:45:57 Load bitmap for dataset 2...
+
+19:45:57 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:45:57 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+19:45:57 2D data found in mapping. Using FIXED EYE settings.
+
+19:45:57 left-handedness detected.
+
+19:45:57 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[2131, 640]
+optimalRect=[0, 0, 1215, 640]
+
+19:45:57 INFO: Output buffer found. Viewport is 1304x596.
+
+19:45:57 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:45:57 SUCCESS: DX11-Warper initialized.
+
+19:45:57 Successfully created warper #0
+
+19:45:57 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:45:57 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:45:57 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:45:57 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:45:57 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:45:57 File found and openend.
+
+19:45:57 File contains 6 chunks.
+
+19:45:57 Load warp map 0...
+
+19:45:57 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+19:45:57 Load bitmap for dataset 1...
+
+19:45:57 Load bitmap for dataset 1...
+
+19:45:57 Load warp map 1...
+
+19:45:57 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+19:45:57 Load bitmap for dataset 2...
+
+19:45:57 Blend image set.
+
+19:45:57 Load bitmap for dataset 2...
+
+19:45:57 Black image set.
+
+19:45:57 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:45:58 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_0"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+19:45:58 2D data found in mapping. Using FIXED EYE settings.
+
+19:45:58 left-handedness detected.
+
+19:45:58 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[2113, 585]
+optimalRect=[829, 0, 2113, 585]
+
+19:45:58 INFO: Output buffer found. Viewport is 1304x596.
+
+19:45:58 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:45:58 SUCCESS: DX11-Warper initialized.
+
+19:45:58 Successfully created warper #1
+
+19:45:58 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:45:58 Input texture resource attached.
+19:46:10 Input texture resource attached.
+19:52:52 INFO: DX11-Warper destroyed.
+
+19:52:52 Warper destroyed.
+19:52:52 INFO: DX11-Warper destroyed.
+
+19:52:52 Warper destroyed.
+19:52:52 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+19:52:56 Warper create issued "RightCam" as #1
+19:52:56 
+Ini path:
+19:52:56  D3D11 - Device found.
+
+19:52:56 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:52:56 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:52:56 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:52:56 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:52:56 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:52:56 File found and openend.
+
+19:52:56 File contains 6 chunks.
+
+19:52:56 Load warp map 0...
+
+19:52:56 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+19:52:56 Load bitmap for dataset 1...
+
+19:52:56 Blend image set.
+
+19:52:56 Load bitmap for dataset 1...
+
+19:52:56 Black image set.
+
+19:52:56 Load warp map 1...
+
+19:52:56 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+19:52:56 Load bitmap for dataset 2...
+
+19:52:56 Load bitmap for dataset 2...
+
+19:52:56 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:52:56 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+19:52:56 2D data found in mapping. Using FIXED EYE settings.
+
+19:52:56 left-handedness detected.
+
+19:52:56 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[2131, 640]
+optimalRect=[0, 0, 1215, 640]
+
+19:52:56 INFO: Output buffer found. Viewport is 1359x596.
+
+19:52:56 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:52:56 SUCCESS: DX11-Warper initialized.
+
+19:52:56 Successfully created warper #0
+
+19:52:56 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+19:52:56 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+19:52:56 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+19:52:56 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+19:52:56 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+19:52:56 File found and openend.
+
+19:52:56 File contains 6 chunks.
+
+19:52:56 Load warp map 0...
+
+19:52:56 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+19:52:56 Load bitmap for dataset 1...
+
+19:52:56 Load bitmap for dataset 1...
+
+19:52:56 Load warp map 1...
+
+19:52:56 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+19:52:56 Load bitmap for dataset 2...
+
+19:52:56 Blend image set.
+
+19:52:56 Load bitmap for dataset 2...
+
+19:52:56 Black image set.
+
+19:52:56 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+19:52:56 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_0"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+19:52:56 2D data found in mapping. Using FIXED EYE settings.
+
+19:52:56 left-handedness detected.
+
+19:52:56 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[2113, 585]
+optimalRect=[829, 0, 2113, 585]
+
+19:52:56 INFO: Output buffer found. Viewport is 1359x596.
+
+19:52:56 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+19:52:57 SUCCESS: DX11-Warper initialized.
+
+19:52:57 Successfully created warper #1
+
+19:53:41 INFO: DX11-Warper destroyed.
+
+19:53:41 Warper destroyed.
+19:53:41 INFO: DX11-Warper destroyed.
+
+19:53:41 Warper destroyed.
+19:53:41 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+20:03:02 Warper create issued "RightCam" as #1
+20:03:02 
+Ini path:
+20:03:02  D3D11 - Device found.
+
+20:03:02 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+20:03:02 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+20:03:02 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+20:03:02 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+20:03:02 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+20:03:02 File found and openend.
+
+20:03:02 File contains 6 chunks.
+
+20:03:02 Load warp map 0...
+
+20:03:02 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+20:03:02 Load bitmap for dataset 1...
+
+20:03:02 Blend image set.
+
+20:03:02 Load bitmap for dataset 1...
+
+20:03:02 Black image set.
+
+20:03:02 Load warp map 1...
+
+20:03:02 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+20:03:02 Load bitmap for dataset 2...
+
+20:03:02 Load bitmap for dataset 2...
+
+20:03:02 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+20:03:02 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+20:03:02 2D data found in mapping. Using FIXED EYE settings.
+
+20:03:02 left-handedness detected.
+
+20:03:02 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[2131, 640]
+optimalRect=[0, 0, 1215, 640]
+
+20:03:02 INFO: Output buffer found. Viewport is 1359x596.
+
+20:03:02 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+20:03:02 SUCCESS: DX11-Warper initialized.
+
+20:03:02 Successfully created warper #0
+
+20:03:02 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+20:03:02 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+20:03:02 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+20:03:02 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+20:03:02 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration.vwf"...
+
+20:03:02 File found and openend.
+
+20:03:02 File contains 6 chunks.
+
+20:03:02 Load warp map 0...
+
+20:03:02 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+20:03:02 Load bitmap for dataset 1...
+
+20:03:02 Load bitmap for dataset 1...
+
+20:03:02 Load warp map 1...
+
+20:03:02 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+20:03:02 Load bitmap for dataset 2...
+
+20:03:02 Blend image set.
+
+20:03:02 Load bitmap for dataset 2...
+
+20:03:02 Black image set.
+
+20:03:02 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+20:03:02 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_0"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+20:03:02 2D data found in mapping. Using FIXED EYE settings.
+
+20:03:02 left-handedness detected.
+
+20:03:02 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[2113, 585]
+optimalRect=[829, 0, 2113, 585]
+
+20:03:02 INFO: Output buffer found. Viewport is 1359x596.
+
+20:03:02 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+20:03:02 SUCCESS: DX11-Warper initialized.
+
+20:03:02 Successfully created warper #1
+
+20:04:04 INFO: DX11-Warper destroyed.
+
+20:04:04 Warper destroyed.
+20:04:04 INFO: DX11-Warper destroyed.
+
+20:04:04 Warper destroyed.
+20:04:04 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+Plugin location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+23:12:03 Warper create issued "RightCam" as #1
+23:12:03 
+Ini path:
+23:12:03  D3D11 - Device found.
+
+23:12:03 --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION ---
+
+23:12:03 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+23:12:03 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+23:12:03 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+23:12:03 DX11-Warper "LeftCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration2.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+23:12:03 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration2.vwf"...
+
+23:12:03 File found and openend.
+
+23:12:03 File contains 6 chunks.
+
+23:12:03 Load warp map 0...
+
+23:12:03 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+23:12:03 Load bitmap for dataset 1...
+
+23:12:03 Blend image set.
+
+23:12:03 Load bitmap for dataset 1...
+
+23:12:03 Black image set.
+
+23:12:03 Load warp map 1...
+
+23:12:03 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+23:12:03 Load bitmap for dataset 2...
+
+23:12:03 Load bitmap for dataset 2...
+
+23:12:03 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+23:12:03 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D2 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 1920,0
+
+23:12:03 2D data found in mapping. Using FIXED EYE settings.
+
+23:12:03 left-handedness detected.
+
+23:12:03 INFO: AutoView for channel [LeftCam] yields:
+optimalRes=[1228, 1358]
+optimalRect=[0, 559, 1228, 1358]
+
+23:12:03 INFO: Output buffer found. Viewport is 1359x596.
+
+23:12:03 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+23:12:03 SUCCESS: DX11-Warper initialized.
+
+23:12:03 Successfully created warper #0
+
+23:12:03 2024/01/19 VIOSOWarpBlend API 1.6.16.87.
+
+23:12:03 C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+23:12:03 C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe.
+
+23:12:03 DX11-Warper "RightCam" created. Logging level is 2
+Evaluated parameters from
+C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration2.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+23:12:03 Open "C:\Users\Marit\Downloads\unity-pong-tutorial-main2022\2022unity-pong-tutorial-main\Assets\Plugins\Vioso\Calibration2.vwf"...
+
+23:12:03 File found and openend.
+
+23:12:03 File contains 6 chunks.
+
+23:12:03 Load warp map 0...
+
+23:12:03 Warp map successfully added, new dataset (1) 1280x800 created, data loading skipped.
+
+23:12:03 Load bitmap for dataset 1...
+
+23:12:03 Load bitmap for dataset 1...
+
+23:12:03 Load warp map 1...
+
+23:12:03 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+23:12:03 Load bitmap for dataset 2...
+
+23:12:03 Blend image set.
+
+23:12:03 Load bitmap for dataset 2...
+
+23:12:03 Black image set.
+
+23:12:03 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+23:12:03 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Display_1"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3200,0
+
+23:12:03 2D data found in mapping. Using FIXED EYE settings.
+
+23:12:03 left-handedness detected.
+
+23:12:03 INFO: AutoView for channel [RightCam] yields:
+optimalRes=[1026, 1298]
+optimalRect=[0, 0, 1026, 793]
+
+23:12:03 INFO: Output buffer found. Viewport is 1359x596.
+
+23:12:03 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+23:12:03 SUCCESS: DX11-Warper initialized.
+
+23:12:03 Successfully created warper #1
+
+23:12:03 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+23:12:03 Input texture resource attached.
+23:12:11 Input texture resource attached.
+23:12:27 INFO: DX11-Warper destroyed.
+
+23:12:27 Warper destroyed.
+23:12:27 INFO: DX11-Warper destroyed.
+
+23:12:27 Warper destroyed.
+23:12:27 Unloading VIOSOWarpBlend
+
+VIOSO Unity Plugin OnUnityGfxDeviceEventShutdown
+VIOSO Unity Plugin OnUnityGfxDeviceEventShutdown
+VIOSO Unity Plugin to unload
