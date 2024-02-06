@@ -1,8 +1,17 @@
-# Pong (2D)
+# unity-pong-keypoint-tracking
+>This game is based on work form ![Zigurous](https://www.youtube.com/@Zigurous) as seen in this ![video](https://www.youtube.com/watch?v=AcpaYq0ihaM&ab_channel=Zigurous).
 
-> Pong is a table tennis-themed arcade video game, featuring simple two-dimensional graphics, manufactured by Atari and originally released in 1972. It was one of the earliest arcade video games; it was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell based the game's concept on an electronic ping-pong game included in the Magnavox Odyssey, the first home video game console.
+We expanded on the base game by adding socket capabilities to receive keypoint-data from a client. Furthermore, we added some game logic to accommodate the new controls.
 
-- **Topics**: Physics, AI
-- **Version**: Unity 2019.4 (LTS)
-- [**Download**](https://github.com/zigurous/unity-pong-tutorial/archive/refs/heads/main.zip)
-- [**Watch Video**](https://youtu.be/AcpaYq0ihaM)
+Features added:
+- (local) multiplayer support
+- keypoint-processing
+- manual start button
+- sound effects
+- game-over screen
+
+# Installation
+1. Install Unity version 2022.3.11f1
+2. Import the project via Unity Hub
+
+
