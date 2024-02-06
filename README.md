@@ -14,4 +14,9 @@ Features added:
 1. Install Unity version 2022.3.11f1
 2. Import the project via Unity Hub
 
-
+# Scripts overview
+Overview of the scripts relevant to the keypoint-data and socket connection (located in Assets>Scripts):
+- PoseDataUnitySocket.cs: starts the server and accepts the socket connection
+- PoseDataAccess.cs: contains getter and setter for the poseData array to ensure it is thread-safe
+- Paddle.cs: uses the Unity physics engine to calculate a new trajectory when the ball collides with a paddle
+- LeftPlayerPaddle.cs and RightPlayerPaddle: extend Paddle.cs, calculate the velocity of the paddles for each frame using the keypoint-data
