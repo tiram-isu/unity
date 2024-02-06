@@ -14,7 +14,7 @@ public class PoseDataUnitySocket
     int connectionPort = 13000;
     string ip = "127.0.0.1";
     public TcpClient client;
-    int bufferSize = 4096;  // 32,768 bytes - max file size for two detected people
+    int bufferSize = 4096;  // 32,768 bytes - max size of pose data for two detected people
 
     public void StartServer()
     {
