@@ -1,5 +1,5 @@
 # unity-pong-keypoint-tracking
->This game is based on work form ![Zigurous](https://www.youtube.com/@Zigurous) as seen in this ![video](https://www.youtube.com/watch?v=AcpaYq0ihaM&ab_channel=Zigurous).
+>This game is based on work form [Zigurous](https://www.youtube.com/@Zigurous) as seen in this [video](https://www.youtube.com/watch?v=AcpaYq0ihaM&ab_channel=Zigurous).
 
 We expanded on the base game by adding socket capabilities to receive keypoint-data from a client. Furthermore, we added some game logic to accommodate the new controls.
 
