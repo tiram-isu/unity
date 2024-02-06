@@ -40,7 +40,7 @@ public class PoseDataUnitySocket
 
         while ((byteCount = stream.Read(buffer, 0, buffer.Length)) > 0)
         {
-            int maxKeyPoints = 150; // ensures that only keypoints for two people are being used (Body 25 -> 75 values per person)
+            int maxKeyPoints = 150; // limit keypoints to two people (Body 25 -> 75 values per person), any more will be discarded
             float[] floatArray = new float[maxKeyPoints]; // create empty array with 150 values
             int maxByteCount = 4 * maxKeyPoints; // one float = 4 byte
             
@@ -49,7 +49,7 @@ public class PoseDataUnitySocket
                 floatArray[i / 4] = BitConverter.ToSingle(buffer, i); // convert bytes to float and write in array
             }
             
-            PoseDataAccess.SetPoseData(floatArray); // set array
+            PoseDataAccess.SetPoseData(floatArray); // update poseData array for both players
         }
         Console.WriteLine("Client disconnected");
     }
