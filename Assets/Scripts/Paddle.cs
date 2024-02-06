@@ -4,10 +4,9 @@
 public abstract class Paddle : MonoBehaviour
 {
     protected Rigidbody2D rb;
-    //public AudioClip collisionSound;
 
     public float speed = 8f;  // originally 8
-    public float paddleSpeed = 4f; // we multiply this with our acceleration curve: paddleSpeed*x^3
+    public float paddleSpeed = 4f; // we multiply this with our acceleration curve: paddleSpeed*x^3 to adjust paddle speed
     [Tooltip("Changes how the ball bounces off the paddle depending on where it hits the paddle. The further from the center of the paddle, the steeper the bounce angle.")]
     public bool useDynamicBounce = false;
 
@@ -15,13 +14,7 @@ public abstract class Paddle : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
-    /*private void Start()
-    {
-        GetComponent<AudioSource>().playOnAwake = false;
-        GetComponent<AudioSource>().clip = collisionSound;
-    }*/
-
+    
     public void ResetPosition()
     {
         rb.velocity = Vector2.zero;
@@ -49,9 +42,6 @@ public abstract class Paddle : MonoBehaviour
 
             // Re-apply the new direction to the ball
             ball.velocity = ballDirection * ball.velocity.magnitude;
-
-            //collisionSound.Play(0);
-            //GetComponent<AudioSource>().Play();
         }
     }
 
